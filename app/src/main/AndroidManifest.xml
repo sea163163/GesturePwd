@@ -15,6 +15,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- 手势密码主界面 -->
+        <activity
+            android:name=".GestureMainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 设置手势密码界面 -->
+        <!--<activity-->
+            <!--android:name=".SettingGesturePwdActivity"-->
+            <!--android:launchMode="singleTask"-->
+            <!--android:screenOrientation="portrait" >-->
+        <!--</activity>-->
     </application>
 
 </manifest>
